@@ -13,4 +13,6 @@ rough requirements:
         c. show balance
         d. log out
     
+Build Status:    
+[![Build Status](https://travis-ci.com/Erick-D-S/banking-application.svg?branch=master)](https://travis-ci.com/Erick-D-S/banking-application)
   

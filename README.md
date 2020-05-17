@@ -19,4 +19,5 @@ Travis Build Status:
 [![Build Status](https://travis-ci.com/Erick-D-S/banking-application.svg?branch=master)](https://travis-ci.com/Erick-D-S/banking-application)
 
 Codacy Review:
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4ed056e9d2cd44c2a6c3eee3dbd86241)](https://www.codacy.com/manual/Erick-D-S/banking-application?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Erick-D-S/banking-application&amp;utm_campaign=Badge_Grade)

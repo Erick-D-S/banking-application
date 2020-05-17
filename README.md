@@ -11,5 +11,4 @@ rough requirements:
         b. withdraw money if there is enough balance
         c. show balance
         d. log out
-	
   

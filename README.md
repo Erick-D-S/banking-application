@@ -14,5 +14,6 @@ rough requirements:
         d. log out
     
 Build Status:    
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c9cfc80bbba147878ed819bc5333ac82)](https://app.codacy.com/manual/Erick-D-S/banking-application?utm_source=github.com&utm_medium=referral&utm_content=Erick-D-S/banking-application&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.com/Erick-D-S/banking-application.svg?branch=master)](https://travis-ci.com/Erick-D-S/banking-application)
   

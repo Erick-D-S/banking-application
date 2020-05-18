@@ -13,3 +13,4 @@ void showBalance();
 void depositMoney();
 void showBalance();
 void withdrawMoney();
+void welcomeScreen();

@@ -1,5 +1,5 @@
-banking: main.o createUser.o showBalance.o depositMoney.o withdrawMoney.o
-	gcc -o banking main.o createUser.o showBalance.o depositMoney.o withdrawMoney.o
+banking: main.o createUser.o showBalance.o depositMoney.o withdrawMoney.o welcomeScreen.o
+	gcc -o banking main.o createUser.o showBalance.o depositMoney.o withdrawMoney.o welcomeScreen.o
 	
 main.o: main.c functions.h
 	gcc -Wall -c main.c
@@ -15,3 +15,6 @@ depositMoney.o: depositMoney.c functions.h
 	
 withdrawMoney.o: withdrawMoney.c functions.h
 	gcc -Wall -c withdrawMoney.c
+	
+welcomeScreen.o: welcomeScreen.c functions.h
+	gcc -Wall -c welcomeScreen.c

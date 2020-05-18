@@ -4,7 +4,7 @@ struct customer
 	int id;
 	char firstName[10];
 	char lastName[10];
-}customer[20];
+}customer;
 
 int howManyCustomers;
 

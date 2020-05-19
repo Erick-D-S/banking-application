@@ -4,5 +4,10 @@
 void createUser(struct customer * new)
 {
 	howManyCustomers++;
+	new->balance = 0;
+	new->firstName[];
+	new->lastName[];
+	new->id = howManyCustomers;
+	
 	return;
 }

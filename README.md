@@ -3,7 +3,7 @@ basic banking application<br />
 rough requirements:<br />
 > 1. Customers shall be defined by the structure "customer" with attributes for first name, last name, acct number, balance FINISHED<br />
 > 2. There shall be a global variable "howManyCustomers" to keep track of how many customers there are.FINISHED <br />
-> 3. Welcome screen shall have two options: "Log in" and "Create new customer:ERICK<br />
+> 3. Welcome screen shall have two options: "Log in" and "Create new customer:FINISHED<br />
 > 4. The "create new user customer" option shall allocate a new "customer" with a first name, last name, unique acct number,
 >    and balance = 0.BHARAT <br />
 > 5. The "log in" option shall allow a log in if a valid acct number is given.GOPAL <br />

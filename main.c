@@ -5,7 +5,8 @@ int main()
 {
 	howManyCustomers = 0;
 	int decision = 0; 
-	struct customer first; /*should this be an array?*/
+	int amount = 0;
+	struct customer first; 
 	while(1)
 	{
 		
@@ -19,9 +20,13 @@ int main()
 		
 		else if(decision == 2)
 		{
-			showBalance();
-			depositMoney();
-			withdrawMoney();
+			showBalance(first);
+			amount = 50;
+			depositMoney(&first, amount);
+			showBalance(first);
+			amount = 30;
+			withdrawMoney(&first, amount);
+			showBalance(first);
 		}
 	}
 	return 0;

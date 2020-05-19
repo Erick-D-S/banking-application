@@ -8,9 +8,8 @@ struct customer
 
 int howManyCustomers;
 
-void createUser(struct customer * customer);
-void showBalance();
-void depositMoney();
-void showBalance();
-void withdrawMoney();
+void createUser(struct customer * customerName);
+void showBalance(struct customer customerName);
+void depositMoney(struct customer *customerName, int amount );
+void withdrawMoney(struct customer *customerName, int amount);
 void welcomeScreen();

@@ -13,3 +13,4 @@ void showBalance(struct customer customerName);
 void depositMoney(struct customer *customerName, int amount );
 void withdrawMoney(struct customer *customerName, int amount);
 void welcomeScreen();
+void logInScreen();

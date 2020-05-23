@@ -14,10 +14,6 @@ void createUser(struct customer ** headNode, char first[], char last[])
 	strncpy(new_node->lastName, last, 10);
 	new_node->id = howManyCustomers;
 	new_node->balance = 0;
-	/*printf(" Customer Name %s %s \n", new_node->firstName,
-										new_node->lastName);
-	printf(" Your Bank ID is %d \n", new_node->id); */
-
 	*headNode = new_node;
 	return;
 }
@@ -39,4 +35,15 @@ void findUser(struct customer ** list, int * id)
 	}
 
 	return;
+}
+
+void deleteUsers(struct customer ** headNode)
+{
+	struct customer * temp_node = NULL;
+	while(*headNode != NULL)
+	{
+		temp_node = *headNode;
+		*headNode = (*headNode)->next;
+		free(temp_node);
+	}
 }

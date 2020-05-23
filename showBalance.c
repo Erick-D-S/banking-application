@@ -3,6 +3,6 @@
 
 void showBalance(struct customer *customerName)
 {
-	printf("\n Your balance is $%d \n", customerName->balance);
+	printf("\n****Your balance is $%d****\n\n", customerName->balance);
 	return;
 }

@@ -11,9 +11,10 @@ int main()
 	int id = 0;
 	struct customer * first = NULL; 
 	struct customer * iterate = NULL; 
+	void (*welcome_screen_ptr)() = welcomeScreen;
 	while(1)
 	{
-		welcomeScreen();
+		welcome_screen_ptr();
 		scanf("%d", &decision);
 		
 		switch(decision) /*these decisions should be enums.*/

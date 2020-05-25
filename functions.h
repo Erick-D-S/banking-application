@@ -17,3 +17,5 @@ void withdrawMoney(struct customer **customerName, int amount);
 void welcomeScreen();
 void logInScreen(struct customer *customerName);
 void deleteUsers(struct customer ** headNode);
+void insertionSort(int array[], int length);
+void insertionSortPointers(int * array, int length);
